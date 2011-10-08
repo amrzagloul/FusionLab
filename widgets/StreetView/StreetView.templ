@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script language="javascript" type="text/javascript">
+            var popup = %s;
+
+            // Get window where the Fusion object is available
+            function getParent()
+            {
+                if (popup) 
+                {
+                    return opener;
+                } 
+                else if (parent.Fusion)
+                {
+                    return parent;
+                } 
+                else if (parent.parent.Fusion) 
+                {
+                    return parent.parent;
+                }
+                
+                return null;
+            }
+
+        </script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="../../lib/OpenLayers/OpenLayers.js"></script>
+        <script type="text/javascript" src="DragFeature.js"></script>
+        <script type="text/javascript" src="%sStreetViewPane.js"></script>
+    </head>
+    <body onload="Init()">
+        <div id="pano" style="width: 100%%; height: 100%%"></div>
+    </body>
+</html>
