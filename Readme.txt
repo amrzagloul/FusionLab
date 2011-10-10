@@ -6,11 +6,11 @@ Presently, you can explore following features:
 *                        Google Street View                           *
 ***********************************************************************
 Based on Google Street widget, it's convenient to get the google street 
-view in Fusion/Mapguide, operations in Google Street View and Fusion/MapGuide
-are sychronized.
+view in Fusion / Mapguide, operations in Google Street View and Fusion /
+MapGuide are sychronized.
 
 
 *********************************************************************** 
 *                             Time Slider                             *
 ***********************************************************************
-Under development
+Under developmenting
